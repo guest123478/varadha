@@ -22,7 +22,7 @@ body {
   color: white; 
 }
 </style>
-<title>CSS Website Layout</title>
+<title>Nellai Varadharaja Perumal</title>
 <style> 
 #example1 {
   background-image: url(), url(.jpg);
@@ -191,7 +191,7 @@ body{
 </style>
 </style>
 <head>
-<title>Title of the document</title>
+<title>GALLERY</title>
     <style>
     #blink{
       font-size: 30px;
@@ -270,22 +270,7 @@ html {
    <a href="live.html"><h1>Live Dharshan</h1></a>
 </div>
 
-
-
-  <div class="col-9">
-    <h1>Varadharaja perumal</h1>
-    <p>"srI lakshmi vallabhArambhAm viKhanO muni madhyamAm |
-         asmadAchArya paryantAm vandE guru paramparAm ||"</p>
-    <p></p>
-</div>
-
-<style>
-html { 
-  background-color: green; 
-  background-size: cover;
-}
-</style>
-<meta name="viewport" content=""width=1300" initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -294,7 +279,6 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-text-align: center;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -338,76 +322,75 @@ text-align: center;
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2.5s;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 2.5s;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .6} 
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .6} 
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
 </style>
 </head>
 <body>
 
-<h2></h2>
-<p></p>
+<h1>Varadharaja perumal</h1>
+<p>"srI lakshmi vallabhArambhAm viKhanO muni madhyamAm |
+         asmadAchArya paryantAm vandE guru paramparAm ||"</p>
 
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="varadha1.jpg"style="width:300px;height:400px;">
+  <div class="numbertext">1 / 6</div>
+  <img src="varadha1.jpg" style="width:40%">
   <div class="text">Caption Text</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="varadha2.jpg" style="width:300px;height:400px;">
+  <div class="numbertext">2 / 6</div>
+  <img src="varadha2.jpg" style="width:60%">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="sv1.jpeg" style="width:300px;height:400px;">
+  <div class="numbertext">3 / 6</div>
+  <img src="sv1.jpeg" style="width:60%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="000 (5).jpeg" style="width:40%">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="000 (5).jpeg" style="width:300px;height:400px;">
+  <div class="numbertext">5 / 6</div>
+  <img src="annam.jpeg" style="width:40%">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="annam.jpeg" style="width:300px;height:400px;">
+  <div class="numbertext">6 / 6</div>
+  <img src="111 (6).jpeg" style="width:60%">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="111 (6).jpeg" style="width:300px;height:400px;">
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="222 (7).jpeg" style="width:300px;height:400px;">
+  <div class="numbertext">7 / 7</div>
+  <img src="222 (7).jpeg" style="width:60%">
   <div class="text"></div>
 </div>
-
 </div>
 <br>
 
@@ -435,7 +418,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 6000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
 
@@ -453,73 +436,11 @@ function showSlides() {
 
 <hr style="height:2px;border-width:0;color:gray;background-color:white">
 
-<meta name="viewport" content="width=1300" initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 100%;
-  padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
-</style>
-</head>
-<body>
 
 
 <div style="text-align:center">
   <h1>Rajagopuram</h1>
-<meta name="viewport" content="width="1300px" initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
@@ -533,7 +454,7 @@ body {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 100%;
+  width: 25%;
   padding: 10px;
 }
 
@@ -590,16 +511,16 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="thoon.jpeg" alt="varadha" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="thoon.jpeg" alt="Nature" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="r1.jpeg" alt="varadha" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="r1.jpeg" alt="Snow" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="gop3.jpeg" alt="varadha" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="gop3.jpeg" alt="Mountains" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="gop4.jpeg" alt="varadha" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="gop4.jpeg" alt="Lights" style="width:380px;height:600px;" onclick="myFunction(this);">
   </div>
 </div>
 
@@ -621,20 +542,19 @@ function myFunction(imgs) {
         
   <p>Five tiers Rajagopuram was successfully built and also big mahamandapam with four giant saptaswara pillars was built by replacing the old 16 pillars mandapam the samprokshana took place on 29 May 2013 Wednesday. Thousands of devotees were witnessed it.</p>
 </div>
-
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="001.jpg" alt="" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="001.jpg" alt="Nature" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="002.jpg" alt="" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="002.jpg" alt="Snow" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="h1.jpeg" alt="" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="h1.jpeg" alt="Mountains" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="004.jpg" alt="" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="004.jpg" alt="Lights" style="width:380px;height:600px;" onclick="myFunction(this);">
   </div>
 </div>
 
@@ -670,7 +590,7 @@ body {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 100%;
+  width: 25%;
   padding: 10px;
 }
 
@@ -727,16 +647,16 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="kk7.jpeg" alt="" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="kk7.jpeg" alt="" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="kk3.jpeg" alt="" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="kk3.jpeg" alt="" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="sv5.jpeg" alt="" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="sv5.jpeg" alt="" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="kk1.jpeg" alt="" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="kk1.jpeg" alt="" style="width:380px;height:600px;" onclick="myFunction(this);">
   </div>
 </div>
 
@@ -760,7 +680,7 @@ function myFunction(imgs) {
 
         <hr style="height:2px;border-width:0;color:gray;background-color:white">
         <h1>Ratham</h1>
-<meta name="viewport" content="width="1300px" initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
@@ -774,7 +694,7 @@ body {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 100%;
+  width: 25%;
   padding: 10px;
 }
 
@@ -827,16 +747,16 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="ther1.jpeg" alt="ther" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="ther1.jpeg" alt="ther" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="ther.jpeg" alt="ther" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="ther.jpeg" alt="ther" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="ther1.jpeg" alt="ther" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="ther1.jpeg" alt="ther" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="ther.jpg" alt="ther" style="width:300px;height:400px;" onclick="myFunction(this);">
+    <img src="ther.jpg" alt="ther" style="width:380px;height:600px;" onclick="myFunction(this);">
   </div>
 </div>
 
@@ -878,7 +798,7 @@ body {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 100%;
+  width: 25%;
   padding: 10px;
 }
 
@@ -936,28 +856,28 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="bram1.jpeg" alt="Nature" style="width:360px;height:640px;" onclick="myFunction(this);">
+    <img src="bram1.jpeg" alt="Nature" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="bram2.jpeg" alt="Snow" style="width:360px;height:640px;" onclick="myFunction(this);">
+    <img src="bram2.jpeg" alt="Snow" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="bram3.jpeg" alt="Mountains" style="width:360px;height:640px;" onclick="myFunction(this);">
+    <img src="bram3.jpeg" alt="Mountains" style="width:500px;height:600px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="bram4.jpeg" alt="Lights" style="width:360px;height:640px;" onclick="myFunction(this);">
+    <img src="bram4.jpeg" alt="Lights" style="width:380px;height:600px;" onclick="myFunction(this);">
   </div>
  <div class="column">
-    <img src="bram5.jpeg" alt="Lights" style="width:360px;height:640px;" onclick="myFunction(this);">
+    <img src="bram5.jpeg" alt="Lights" style="width:380px;height:600px;" onclick="myFunction(this);">
   </div>
 <div class="column">
-    <img src="bram6.jpeg" alt="Lights" style="width:360px;height:640px;" onclick="myFunction(this);">
+    <img src="bram6.jpeg" alt="Lights" style="width:380px;height:600px;" onclick="myFunction(this);">
   </div>
 <div class="column">
-    <img src="bram7.jpeg" alt="Lights" style="width:360px;height:640px;" onclick="myFunction(this);">
+    <img src="bram7.jpeg" alt="Lights" style="width:380px;height:600px;" onclick="myFunction(this);">
   </div>
 <div class="column">
-    <img src="bram8.jpeg" alt="Lights" style="width:360px;height:640px;" onclick="myFunction(this);">
+    <img src="bram8.jpeg" alt="Lights" style="width:380px;height:600px;" onclick="myFunction(this);">
   </div>
 </div>
 <div class="container">
@@ -983,7 +903,7 @@ function myFunction(imgs) {
          <hr style="height:2px;border-width:0;color:gray;background-color:white">
  <h1>other Uthsavam</h1>
           <p>Hanuman Jayanthi festival is celebrated for 10days during Marhazi ending on Moola Nakshatram (Amavasya) with Pushpanjali. 7 days of Thailiakappu utsavam for Thayar in margazhi,7 days of Pavithrothsavam in the month of Aavani, All Saturdays of the Tamil month Purratasi are celebrated with Garudaseva. Navarathri also celebrated in the same month. Five </p><br />
-          <img src="ut.jpeg" alt="kovil" style="width:360px;height:640px;">
+          <img src="ut.jpeg" alt="kovil" style="width:1400px;height:350px;">
 <!-- Please leave this in place after all of your content - thanks :) -->
 <div id="footer"><a href="http://www.aszx.net"></a><a href="http://www.bryantsmith.com"></a></div>
 <!-- Please leave this in place after all of your content - thanks :) -->
